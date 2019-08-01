@@ -1,3 +1,2 @@
 # msp432e4
-Peripheral Access crate for MSP432E4 device family generated using svd2rust.
-Some changes were made to the SVD file in order to help svd2rust to convert the file correctly.
+Peripheral Access crate for the <a href="http://www.ti.com/product/MSP432E401Y">MSP432E4</a> device family generated using <a href="https://github.com/rust-embedded/svd2rust">svd2rust</a> 0.15.0.
