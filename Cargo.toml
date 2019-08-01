@@ -1,0 +1,24 @@
+[package]
+name = "msp432e4"
+version = "0.1.0"
+authors = [""]
+edition = "2018"
+publish = false
+
+description = "Peripheral Access Crate for TI MSP432E4-family devices generated using svd2rust"
+keywords = ["cortex-m", "arm", "svd2rust", "msp432", "msp432e4"]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bare-metal = "0.2.0"
+cortex-m = "0.6.0"
+vcell = "0.1.0"
+
+[dependencies.cortex-m-rt]
+optional = true
+version = "0.6.5"
+
+[features]
+rt = ["cortex-m-rt/device"]

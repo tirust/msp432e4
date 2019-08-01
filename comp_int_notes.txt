@@ -1,0 +1,14 @@
+HOW TO SET UP COMPARATOR INTERRUPT:
+
+1. GPIO Pins
+    > GPIO_DEN = 0x0000000F
+    > GPIO_AMSEL = 0x00000080
+
+2. Comparator setup (you can do this part)
+
+
+
+-=-=-=-=-=-=-=-=-=-=- FIRST TASK: RECREATE SYSCONFIG LED FLASH -=-=-=-=-=-=-=-=-=-=-=-=-=-
+1. Setup SysTick peripheral (IDENTICAL to ST version)
+2. Setup LED (VERY SIMILAR to ST version)
+3. Go
